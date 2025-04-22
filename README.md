@@ -36,35 +36,22 @@ Environment Management: dotenv, Streamlit secrets
 📦 Installation
 Clone the repository:
 
-bash
-Copy
-Edit
+
 git clone https://github.com/Sivamahendranath/Weather_Analysis/blob/main/code/app.py
 Create a virtual environment (optional but recommended):
 
-bash
-Copy
-Edit
 python -m venv venv
 source venv/bin/activate  # or `venv\Scripts\activate` on Windows
 Install dependencies:
 
-bash
-Copy
-Edit
 pip install -r requirements.txt
 Set up environment variables:
 
 Create a .env file or use Streamlit's secrets to store your API key:
 
-ini
-Copy
-Edit
+
 Weather_Api=your_openweathermap_api_key
 ▶️ Running the App
-bash
-Copy
-Edit
 streamlit run graph.txt
 Note: Although the file is named graph.txt, it's a valid Python script. You can rename it to app.py for clarity.
 
@@ -90,10 +77,6 @@ Auto-Refresh Controls: Toggleable auto-refresh with interval settings.
 Custom Alerts: Set personalized thresholds for weather alerts.
 
 📁 Project Structure (recommended)
-bash
-Copy
-Edit
-.
 ├── app.py                  # (originally graph.txt)
 ├── .env                   # contains Weather_Api
 ├── requirements.txt
