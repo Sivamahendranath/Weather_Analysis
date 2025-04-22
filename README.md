@@ -39,8 +39,7 @@ Clone the repository:
 bash
 Copy
 Edit
-git clone https://github.com/your-username/india-weather-dashboard.git
-cd india-weather-dashboard
+git clone https://github.com/Sivamahendranath/Weather_Analysis/blob/main/code/app.py
 Create a virtual environment (optional but recommended):
 
 bash
